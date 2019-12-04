@@ -296,14 +296,14 @@ BOOST_AUTO_TEST_CASE(asset_rewards_test)
       update_feed_producers( izzycoin_id(db), { izzy_id } );
       update_feed_producers( jillcoin_id(db), { jill_id } );
 
-      // Izzycoin is worth 100 BTS
+      // Izzycoin is worth 100 X4T
       price_feed feed;
       feed.settlement_price = price( _izzy(1), core_asset(100) );
       feed.maintenance_collateral_ratio = 175 * GRAPHENE_COLLATERAL_RATIO_DENOM / 100;
       feed.maximum_short_squeeze_ratio = 150 * GRAPHENE_COLLATERAL_RATIO_DENOM / 100;
       publish_feed( izzycoin_id(db), izzy, feed );
 
-      // Jillcoin is worth 30 BTS
+      // Jillcoin is worth 30 X4T
       feed.settlement_price = price( _jill(1), core_asset(30) );
       feed.maintenance_collateral_ratio = 175 * GRAPHENE_COLLATERAL_RATIO_DENOM / 100;
       feed.maximum_short_squeeze_ratio = 150 * GRAPHENE_COLLATERAL_RATIO_DENOM / 100;

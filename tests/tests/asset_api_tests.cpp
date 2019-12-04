@@ -45,7 +45,7 @@ BOOST_AUTO_TEST_CASE( asset_holders )
    auto bob = create_account("bob");
    auto alice = create_account("alice");
 
-   // send them some bts
+   // send them some x4t
    transfer(account_id_type()(db), dan, asset(100));
    transfer(account_id_type()(db), alice, asset(200));
    transfer(account_id_type()(db), bob, asset(300));
@@ -70,7 +70,7 @@ BOOST_AUTO_TEST_CASE( api_limit_get_asset_holders )
    auto bob = create_account("bob");
    auto alice = create_account("alice");
 
-   // send them some bts
+   // send them some x4t
    transfer(account_id_type()(db), dan, asset(100));
    transfer(account_id_type()(db), alice, asset(200));
    transfer(account_id_type()(db), bob, asset(300));

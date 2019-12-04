@@ -800,9 +800,9 @@ BOOST_AUTO_TEST_CASE( cli_multisig_transaction )
 
       // attempt to give cifer.test some bitsahres
       BOOST_TEST_MESSAGE("Transferring bitshares from Nathan to cifer.test");
-      signed_transaction transfer_tx1 = con.wallet_api_ptr->transfer("nathan", "cifer.test", "10000", "1.3.0", "Here are some BTS for your new account", true);
+      signed_transaction transfer_tx1 = con.wallet_api_ptr->transfer("nathan", "cifer.test", "10000", "1.3.0", "Here are some X4T for your new account", true);
 
-      // transfer bts from cifer.test to nathan
+      // transfer x4t from cifer.test to nathan
       BOOST_TEST_MESSAGE("Transferring bitshares from cifer.test to nathan");
       auto dyn_props = app1->chain_database()->get_dynamic_global_properties();
       account_object cifer_test = con.wallet_api_ptr->get_account("cifer.test");
@@ -1001,7 +1001,7 @@ BOOST_AUTO_TEST_CASE( cli_create_htlc )
       }
 
 
-      BOOST_TEST_MESSAGE("Alice has agreed to buy 3 BOBCOIN from Bob for 3 BTS. Alice creates an HTLC");
+      BOOST_TEST_MESSAGE("Alice has agreed to buy 3 BOBCOIN from Bob for 3 X4T. Alice creates an HTLC");
       // create an HTLC
       std::string preimage_string = "My Secret";
       fc::sha256 preimage_md = fc::sha256::hash(preimage_string);
@@ -1069,7 +1069,7 @@ BOOST_AUTO_TEST_CASE( cli_create_htlc )
       }
 
       // TODO: Bob can look at Alice's history to see her preimage
-      // Bob can use the preimage to retrieve his BTS
+      // Bob can use the preimage to retrieve his X4T
       {
          BOOST_TEST_MESSAGE("Bob uses Alice's preimage to retrieve the BOBCOIN");
          std::string secret = "My Secret";
