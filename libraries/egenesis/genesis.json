@@ -907,23 +907,24 @@
     "initial_witness_candidates": [
         {
             "owner_name": "x4trade",
-            "block_signing_key": "X4T8DrLu2pWywBekZ1ammkcTpKdt9HJ8RbnCZXAr6tZBxoNJZfGby"
+            "block_signing_key": "X4T6mKCVELAKp6Gqt9b5F2rSMZzn7p8B5rrGeyU5BS75dPSVDFt7y"
         },
         {
             "owner_name": "cryptonex",
-            "block_signing_key": "X4T7forBzAPH4cf3cVjiDSnWHxU9EyiXP1mFuJvY9wbBqTsZFvkjt"
+            "block_signing_key": "X4T7uggX2z45Po14JDzG5qM2sS67So2Km2R4e9Z8Ddd4PKEcaESJj"
         },
+
         {
             "owner_name": "kumasi",
-            "block_signing_key": "X4T8PT1pLvmw3rVQDQy4fcbrMqrdoCr1bEoXT6rJwkxHiGXWCwYbu"
+            "block_signing_key": "X4T5XUHiL5TF7FdaBJugt4sXANndZZch9VQhJKTsPRDEGYWciZuhi"
         },
         {
             "owner_name": "emmanuel",
-            "block_signing_key": "X4T8RyDSAbyU85MDupcsFahqK2nfQ9Cbkec4ngrSmqqAdUgZesSpg"
+            "block_signing_key": "X4T8Njo7u3iuW67gQDsqSLZU2TEouKXPvYjvgnaFf5WosxVGo5ayv"
         },
         {
             "owner_name": "faith",
-            "block_signing_key": "X4T5UCKxFwpQMJNqa3pkUUGqRmfjCYcxnh1irg8nRUwACdHVT5yYs"
+            "block_signing_key": "X4T5SaKZbNWyHHJJaUQDHgvoxjyUpttkyR75D3TRbWzbh8Yt6xyam"
         },
         {
             "owner_name": "daisy",
