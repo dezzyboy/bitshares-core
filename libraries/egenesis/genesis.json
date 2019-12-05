@@ -632,7 +632,7 @@
             "accumulated_fees": 0
         },
         {
-            "accumulated_fees": 5063,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 Swiss franc",
             "is_bitasset": true,
@@ -652,7 +652,7 @@
             "symbol": "AUD"
         },
         {
-            "accumulated_fees": 246,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 pound sterling",
             "is_bitasset": true,
@@ -662,7 +662,7 @@
             "symbol": "GBP"
         },
         {
-            "accumulated_fees": 57,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 Canadian dollar",
             "is_bitasset": true,
@@ -670,6 +670,39 @@
             "max_supply": "1000000000000000",
             "precision": 4,
             "symbol": "CAD"
+        },
+        {
+            "accumulated_fees":0,
+            "collateral_records": [],
+            "description": "1 Ghanian Cedis",
+            "is_bitasset": true,
+            "issuer_name": "x4trade",
+            "max_supply": "1000000000000000",
+            "precision": 4,
+            "symbol": "GHS"
+
+        },
+        {
+            "accumulated_fees":0,
+            "collateral_records": [],
+            "description": "1 Nigerian Naira",
+            "is_bitasset": true,
+            "issuer_name": "x4trade",
+            "max_supply": "1000000000000000",
+            "precision": 4,
+            "symbol": "NGN"
+
+        },
+        {
+            "accumulated_fees":0,
+            "collateral_records": [],
+            "description": "1 South African Rand",
+            "is_bitasset": true,
+            "issuer_name": "x4trade",
+            "max_supply": "1000000000000000",
+            "precision": 4,
+            "symbol": "ZAR"
+
         },
         {
             "accumulated_fees": 0,
@@ -682,7 +715,7 @@
             "symbol": "MXN"
         },
         {
-            "accumulated_fees": 402,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 Japanese yen",
             "is_bitasset": true,
@@ -692,7 +725,7 @@
             "symbol": "JPY"
         },
         {
-            "accumulated_fees": 42868,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 euro",
             "is_bitasset": true,
@@ -702,7 +735,7 @@
             "symbol": "EUR"
         },
         {
-            "accumulated_fees": 42868,
+            "accumulated_fees": 0,
             "collateral_records": [],
             "description": "1 United States dollar",
             "is_bitasset": true,
@@ -852,11 +885,11 @@
             "accumulated_fees": 0
         },
         {
-            "symbol": "CRYPTONEX",
+            "symbol": "CRYPTONEX.BDC",
             "issuer_name": "cryptonex",
             "max_supply": 100000000000000000,
             "precision": 6,
-            "description": "CRYPTONEX. ",
+            "description": "CRYPTONEX.BDC = 1 BDC",
             "is_bitasset": false,
             "collateral_records": [],
             "accumulated_fees": 0
